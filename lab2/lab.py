@@ -4,7 +4,7 @@ import sys
 
 # If no arguments for the program are given then print how to call it and exit
 if len(sys.argv) < 2:
-    print("Usage: lab.py <string1> [string2] [string3] ...")
+    print("Usage: ./lab.py <string1> [string2] [string3] ...")
     sys.exit()
 
 # Join all arguments given by user in a string
