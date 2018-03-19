@@ -42,7 +42,7 @@ if len(sys.argv) < 2:
 
 dict_of_num = {i:random.randint(2,15) for i in range(0, num)}
 
-# Create a list from that dict: both keys and values have to be list's elements but they have to be switched
+# Create a list from that dict: both keys and values have to be list's elements as tuples but they have to be switched
 list_from_dict = [(y, x) for x,y in dict_of_num.items()]
 
 # Create a dict from dict_of_num with keys and values switched
