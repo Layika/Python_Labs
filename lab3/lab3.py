@@ -12,8 +12,8 @@ def is_prime(n):
        else: return True
     else: return True
 
-# Create a dictionary of 50 elements with keys as numbers from 0 to 100 and values as True/False based on if number is prime or not
-# If a key already exist in dict then do nothing
+# Create a dictionary of 50 elements with keys as numbers from 0 to 100 and values as True/False based on if
+# number is prime or not. If a key already exist in dict then do nothing
 numbers = {}
 while len(numbers) < 50:
     k=random.randint(0,100)
