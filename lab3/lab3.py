@@ -12,8 +12,8 @@ def is_prime(n):
        else: return True
     else: return True
 
-# Create a dictionary of 50 elements with keys as numbers from 0 to 100 and values as True/False based on if number is prime or not
-# If a key already exist in dict then do nothing
+# Create a dictionary of 50 elements with keys as numbers from 0 to 100 and values as True/False based on if
+# number is prime or not. If a key already exist in dict then do nothing
 numbers = {}
 while len(numbers) < 50:
     k=random.randint(0,100)
@@ -42,7 +42,7 @@ if len(sys.argv) < 2:
 
 dict_of_num = {i:random.randint(2,15) for i in range(0, num)}
 
-# Create a list from that dict: both keys and values have to be list's elements but they have to be switched
+# Create a list from that dict: both keys and values have to be list's elements as tuples but they have to be switched
 list_from_dict = [(y, x) for x,y in dict_of_num.items()]
 
 # Create a dict from dict_of_num with keys and values switched
